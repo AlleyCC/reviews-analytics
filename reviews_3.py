@@ -21,3 +21,13 @@ for d in data:
 print('Total:', len(new),'筆留言小於100字。')
 print(new[0])
 print(new[15])
+
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('總共有',len(good),'筆留言提到good')
+print(good[0])
+print(good[14])
+
